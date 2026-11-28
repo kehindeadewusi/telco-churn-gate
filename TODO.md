@@ -1,5 +1,9 @@
 # Planned work
 
+## Next
+- [] Data Cleaning - Alice
+
+## Ongoing
 - grunt work: (done)
     - [x] add a pre-commit hook for Jupytext, to keep .py and .ipynb modules in sync (`.pre-commit-config.yaml`)
     - [x] add reformatting with black, isort — via ruff (`ruff` + `ruff-format` hooks, isort rules in `pyproject.toml`)
@@ -8,19 +12,26 @@
     - [x] training data orchestration: join the data for telco
     - [x] run fg-data-profiling for exploratory data analysis
     - [x] scaffold a first classification model: good for getting the CICD going
+- report:
+    - [ ] start report (on Canva): [Alice]
+    - [ ] first report outline: [Open]
+    - [ ] contribute to report: [Everyone]
 - deployment
-    - [ ] deploy model to Hugging face
+    - [ ] CICD to Hugging Face: [Keni]
 - presentation
     - [ ] add a gradio app
-- model v1:
-    - [ ] align model to expectations, similar to week 3
-    - [ ] implement model hyperparameter tuning, cross fold, gridsearch...
+- EDA deep-dive:
+    - [ ] EDA: [Pedro]
+    - [ ] Add Features we are dropping to cleaning Preprocessor
+- model v2:
+    - [ ] Data Preprocessing & Cleaning
+    - [ ] Feature Engineering & Selection
+    - [ ] Model Selection & Training
+    - [ ] Evaluation & Tuning: implement model hyperparameter tuning, cross fold, gridsearch...
 - tests
     - [ ] add first set of tests
-    - [ ] include tests in CICD pipeline
-- report:
-    - [ ] report outline
-    - [ ] report v1
+    - [ ] include tests in CICD pipeline; a gate model passes before deployment
+
 
 # Project Outline
 
